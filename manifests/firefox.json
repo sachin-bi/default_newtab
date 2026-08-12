@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Default NewTab",
+  "version": "0.1.0",
+  "description": "A clean and customizable browser new tab.",
+  "permissions": [
+    "storage",
+    "history",
+    "bookmarks"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
