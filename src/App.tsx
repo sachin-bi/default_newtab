@@ -2,6 +2,7 @@ import Calendar from "./components/Calendar/Calendar";
 import Clock from "./components/Clock/Clock";
 import DayProgress from "./components/DayProgress/DayProgress";
 import QuickLinks from "./components/QuickLinks/QuickLinks";
+import RecentLinks from "./components/RecentLinks/RecentLinks";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Calendar />
 
         <QuickLinks />
+
+        <RecentLinks />
       </div>
     </main>
   );
