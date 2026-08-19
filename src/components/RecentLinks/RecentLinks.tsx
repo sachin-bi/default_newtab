@@ -9,7 +9,7 @@ function RecentLinks() {
   }
 
   return (
-    <section className="w-full">
+    <section className="w-full rounded-2xl border border-white/10 bg-white/5 p-5">
       <h2 className="mb-4 text-sm font-medium tracking-wide text-white/60">
         RECENT
       </h2>

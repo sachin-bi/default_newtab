@@ -15,7 +15,7 @@ function QuickLinks() {
   }
 
   return (
-    <section className="w-full">
+    <section className="w-full rounded-2xl border border-white/10 bg-white/5 p-5">
       <div className="mb-4">
         <h2 className="text-sm font-medium tracking-wide text-white/60">
           QUICK LINKS

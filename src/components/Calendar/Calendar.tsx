@@ -44,7 +44,8 @@ function Calendar() {
   };
 
   return (
-    <section className="w-full max-w-md rounded-2xl border border-white/10 bg-white/5 p-5">
+    <section className="w-full rounded-2xl border border-white/10 bg-white/5 p-5">
+   
       <div className="mb-5 flex items-center justify-between">
         <button
           onClick={goToPreviousMonth}
